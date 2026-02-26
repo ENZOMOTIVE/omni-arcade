@@ -1,9 +1,15 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 import { Image } from 'expo-image';
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { router, useRouter } from "expo-router";
+import { appRed } from "@/constants/theme";
 
 export default function HomeScreen() {
     const PlaceholderImage = require('@/assets/images/app_logo.png');
     return (
+
+
+       
         <View style={styles.container}>
            
             <Image
@@ -11,10 +17,15 @@ export default function HomeScreen() {
                 style={styles.logo}
             />
 
-            <Text style={styles.text}>
-                This is the Home Screen
-            </Text>
+            <Button title="Play Games"
+            color = {appRed}
+            onPress={() => router.navigate('/game_arena')}
+                   
+            />
+                
+
         </View>
+
     );
 }
 
