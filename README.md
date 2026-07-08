@@ -1,81 +1,25 @@
-# Omni Arcade
+# 🕹️ Omni-Arcade: The Infinite Game Vault
 
-> Omni Arcade is a single app that brings multiple small games into one arcade-style experience.
+<p align="center">
+<img src="omni-arcade/assets/images/app_logo.png" width="250" alt="Omni-Arcade Logo">
+</p>
 
-## The Story
+Omni-Arcade is a high-performance, all-in-one gaming ecosystem. By consolidating classic board games like Chess and Ludo with modern hyper-casual titles, it eliminates "app fatigue" and provides a unified social layer for gamers worldwide.
 
-Omni Arcade starts with a simple goal: shape a mobile experience that is easy to install, test, and hand off. Its shape tells the same story: the product interface, the service layer, and the mobile surface live close enough together that a maintainer can see the project as a whole before diving into individual folders.
+## 🚀 Key Features
 
-## Detailed Description
+**🔀 Seamless Switching:** Transition between a strategic game of Chess and a casual round of Ludo in seconds without reloading the core engine.
 
-Omni Arcade is a single app that brings multiple small games into one arcade-style experience. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+**🌍 Global Matchmaking:** A custom Elo-based matchmaking system ensures you face opponents at your skill level.
 
-The mobile workflow matters as much as the code. Device setup, emulator notes, signing expectations, and release commands should be kept visible so the app can move from local development to a real handset without guesswork.
+**🤖 Adaptive AI (Neural-Core):** Our offline bots don't just follow scripts; they adapt to your playstyle, offering a genuine challenge from "Novice" to "Grandmaster."
 
-At the top level, the most important entry points are `omni-arcade`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+**🔋 Battery Efficient:** Optimized rendering loops ensure you can play longer without draining your device or overheating.
 
-The declared Node surfaces include `omni-arcade` (scripts: `start`, `reset-project`, `android`, `ios`, `web`). Those package files are the best starting points for understanding how the app runs, builds, or validates itself.
-
-The visible stack currently points to `React`, `React Native / Expo`, `Node.js`, `TypeScript`, and `JavaScript`. Keep this list honest as the project changes so the README remains useful as a first technical map.
-
-## What It Includes
-
-- A user-facing surface for the product, demo, dashboard, or static experience.
-- A service layer for APIs, realtime behavior, bot logic, or server-side workflows.
-- Mobile-ready project structure for wallet, Android, or app-focused development.
-
-## How It Is Put Together
-
-| Path | Role |
-| --- | --- |
-| `.gitattributes` | project file or folder |
-| `omni-arcade` | project file or folder |
-
-## Local Development
-
-```bash
-git clone https://github.com/ENZOMOTIVE/omni-arcade.git
-cd omni-arcade
-```
-
-```bash
-cd omni-arcade
-npm install
-npm start
-```
-
-## Command Surface
-
-| Area | Commands |
-| --- | --- |
-| `omni-arcade/package.json` | `start`, `reset-project`, `android`, `ios`, `web`, `lint` |
-
-## Configuration
-
-- Document API ports, database URLs, third-party credentials, and service endpoints in `.env.example` before deployment.
-- Keep signing keys, platform credentials, and build profiles outside the repository.
-
-## Quality Checks
-
-- From `omni-arcade`, run `npm run lint`.
-
-## Where To Take It Next
-
-- Add screenshots or a short user flow so visitors can see the interface before running it.
-- Document the main API routes, bot events, or service responsibilities with example inputs and outputs.
-- Add emulator, device, signing, and release notes for the mobile workflow.
-- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
-- Record important product decisions here so the repository keeps its story as the code evolves.
-
-## Project Metadata
-
-| Field | Details |
-| --- | --- |
-| Repository | `ENZOMOTIVE/omni-arcade` |
-| Categories | `Mobile` |
-| Primary stack | React, React Native / Expo, Node.js, TypeScript, JavaScript |
+**💬 Social Meta-Layer:** Integrated voice snippets, customizable emojis, and persistent friend rooms.
 
 
-## License
 
-No license file is currently committed. Add one before distributing this project publicly.
+
+
+
